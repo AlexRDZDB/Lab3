@@ -18,10 +18,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ldihel',
-    maintainer_email='logan.dihel@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Alejandro Rodriguez',
+    maintainer_email='alejandrordzdb@gmail.com',
+    description='URDF description of the Metafly',
+    license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [

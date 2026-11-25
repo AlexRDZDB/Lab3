@@ -1,0 +1,7 @@
+{
+    // Path to your MATLAB install (the folder that contains bin/matlab).
+    // Update the release name if you install something other than R2026b.
+    "MATLAB.installPath": "/usr/local/MATLAB/R2026b",
+    "MATLAB.matlabConnectionTiming": "onStart",
+    "files.associations": { "*.m": "matlab" }
+}

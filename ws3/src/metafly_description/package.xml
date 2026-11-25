@@ -3,9 +3,17 @@
 <package format="3">
   <name>metafly_description</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="logan.dihel@gmail.com">ldihel</maintainer>
-  <license>TODO: License declaration</license>
+  <description>URDF description of the Metafly</description>
+  <maintainer email="alejandrordzdb@gmail.com">Alejandro Rodriguez</maintainer>
+  <license>Apache-2.0</license>
+
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

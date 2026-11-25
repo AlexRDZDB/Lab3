@@ -10,6 +10,14 @@ function [w,theta] = ECE569_AxisAng3(w_theta)
 % If so, set theta=0 and set w=zeros(size(w_theta))
 
 
-% theta = ...
-% w = ...
+theta = norm(w_theta);          % rotation angle = length of w*theta
+
+if theta < 1e-12
+    % zero vector: axis is undefined
+    theta = 0;
+    w = zeros(size(w_theta));
+else
+    w = w_theta / theta;         % unit-length rotation axis
+end
+
 end
